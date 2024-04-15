@@ -91,13 +91,13 @@ public class Login {
         Boolean checkUserName = false;
         String userName = "";
         while (!checkUserName) {
-            userName = JOptionPane.showInputDialog(null, "Please Enter A UserName \nHint: Must Contain an Underscore and no longer than 5 Characters");
+            userName = JOptionPane.showInputDialog(null, "Please Enter A UserName \nHint: Must contain an underscore and no longer than 5 Characters");
        
             if (userName != null && userName.contains("_") && userName.length() <= 5) {
                 System.out.println("UserName successfully captured");
                 checkUserName = true;
             } else {
-                JOptionPane.showMessageDialog(null, "UserName is not correctly formatted, please ensure that your UserName contains an underscore and is no more than 5 characters in length");
+                JOptionPane.showMessageDialog(null, "Username is not correctly formatted,   Username must contain an underscore and have no more than 5 characters in length");
             }    
         }
         return userName;
@@ -107,8 +107,8 @@ public class Login {
     
 
     public static void main(String[] args) {
-        String firstName = JOptionPane.showInputDialog(null,"Enter User First Name");
-        String lastName = JOptionPane.showInputDialog(null,"Enter User Last Name");
+        String firstName = JOptionPane.showInputDialog(null,"Enter user first name");
+        String lastName = JOptionPane.showInputDialog(null,"enter user last name");
        String password = UserPassword();
        String username = Username();
         
