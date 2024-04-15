@@ -11,7 +11,7 @@ public class Login {
     private String userLastName;
 
     Login() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        throw new UnsupportedOperationException("Not supported.");
     }
 
     public void setUsername(String username) {
