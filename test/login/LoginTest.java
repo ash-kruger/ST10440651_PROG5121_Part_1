@@ -42,7 +42,7 @@ public class LoginTest {
     @Test
     public void testSetUsername() {
         System.out.println("setUsername");
-        String username = "ash";
+        String username = "kyl_1";
         Login instance = new Login();
         instance.setUsername(username);
         // TODO review the generated test code and remove the default call to fail.
@@ -55,7 +55,7 @@ public class LoginTest {
     @Test
     public void testSetPassword() {
         System.out.println("setPassword");
-        String password = "@ShKruger0";
+        String password = "Ch&&sec@ke99!";
         Login instance = new Login();
         instance.setPassword(password);
         // TODO review the generated test code and remove the default call to fail.
@@ -69,7 +69,7 @@ public class LoginTest {
     public void testGetUsername() {
         System.out.println("getUsername");
         Login instance = new Login();
-        String expResult = "ash";
+        String expResult = "kyl_1";
         String result = instance.getUsername();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -83,7 +83,7 @@ public class LoginTest {
     public void testGetPassword() {
         System.out.println("getPassword");
         Login instance = new Login();
-        String expResult = "ShKruger0";
+        String expResult = "Ch&&sec@ke99!";
         String result = instance.getPassword();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -100,6 +100,86 @@ public class LoginTest {
         Login.main(args);
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getUserFirstName method, of class Login.
+     */
+    @Test
+    public void testGetUserFirstName() {
+        System.out.println("getUserFirstName");
+        Login instance = null;
+        String expResult = "";
+        String result = instance.getUserFirstName();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setUserFirstName method, of class Login.
+     */
+    @Test
+    public void testSetUserFirstName() {
+        System.out.println("setUserFirstName");
+        String userFirstName = "";
+        Login instance = null;
+        instance.setUserFirstName(userFirstName);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getUserLastName method, of class Login.
+     */
+    @Test
+    public void testGetUserLastName() {
+        System.out.println("getUserLastName");
+        Login instance = null;
+        String expResult = "";
+        String result = instance.getUserLastName();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of setUserLastName method, of class Login.
+     */
+    @Test
+    public void testSetUserLastName() {
+        System.out.println("setUserLastName");
+        String userLastName = "";
+        Login instance = null;
+        instance.setUserLastName(userLastName);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of UserName method, of class Login.
+     */
+    @Test
+    public void testUserName() {
+        System.out.println("UserName");
+        String expResult = "";
+        String result = Login.UserName();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of UserPassword method, of class Login.
+     */
+    @Test
+    public void testUserPassword() {
+        System.out.println("UserPassword");
+        String expResult = "";
+        String result = Login.UserPassword();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
     }
     
 }
