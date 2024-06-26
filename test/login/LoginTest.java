@@ -163,7 +163,7 @@ public class LoginTest {
     public void testUserName() {
         System.out.println("UserName");
         String expResult = "";
-        String result = Login.UserName();
+        String result = Login.Username();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
@@ -175,11 +175,24 @@ public class LoginTest {
     @Test
     public void testUserPassword() {
         System.out.println("UserPassword");
-        String expResult = "";
+        String expResult = "Ch&&sec@ke99";
         String result = Login.UserPassword();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       // fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of Username method, of class Login.
+     */
+    @Test
+    public void testUsername() {
+        System.out.println("Username");
+        String expResult = "kyl_1";
+        String result = Login.Username();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
     }
     
 }

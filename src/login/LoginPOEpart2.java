@@ -351,8 +351,9 @@ public static String generateTaskID(String taskName, String taskDeveloper) {
         public int taskDuration;
         public String taskStatus;
         public int taskNumber;
+        public String developer;
 
-        public Task(String taskName, String taskDescription, String taskDeveloper, int taskDuration, String taskStatus, int taskNumber) {
+        public Task(String taskName, String taskDescription, String taskDeveloper, int taskDuration, String taskStatus) {
             this.taskName = taskName;
             this.taskDescription = taskDescription;
             this.taskDeveloper = taskDeveloper;
